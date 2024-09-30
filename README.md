@@ -4,7 +4,7 @@
 This web application demonstrates the ability to perform Optical Character Recognition (OCR) on an uploaded image containing text in both **Hindi** and **English**. It also implements a basic keyword search functionality based on the extracted text. The prototype is deployed and accessible online via a live URL.
 
 ## Features
-- **Image Upload**: Supports common image formats such as JPEG and PNG.
+- **Image Upload**: Supports common image formats such as JPEG, JPG and PNG.
 - **OCR Processing**: Extracts text in Hindi and English from the uploaded image.
 - **Keyword Search**: Allows users to search within the extracted text and highlights matching sections.
 - **Live Deployment**: Accessible via a public URL.
@@ -12,10 +12,10 @@ This web application demonstrates the ability to perform Optical Character Recog
 ## Technology Stack
 - **Backend**: Python
 - **OCR Models**: 
-  - Huggingface Transformers (Qwen2-VL, Byaldi, or General OCR Theory models)
+  - Huggingface Transformers (General OCR Theory model(GOT OCR2.0)
   - PyTorch for model execution
-- **Web Framework**: Gradio / Streamlit
-- **Deployment**: Hugging Face Spaces, Streamlit Sharing, or other suitable platforms
+- **Web Framework**: Streamlit
+- **Deployment**: HuggingFace Spaces, Streamlit Sharing.
 
 ## Tasks Overview
 
@@ -31,7 +31,7 @@ This web application demonstrates the ability to perform Optical Character Recog
 
 ### Task 2: Web Application Development
 1. **Image Upload**: 
-   - Allow users to upload a single image for OCR.It supports file types like **.jpeg, .jpg, .png**
+   - Allow users to upload a single image for OCR.
    
 2. **Text Extraction**:
    - Use the chosen OCR model to extract text and display it on the page.
@@ -62,6 +62,6 @@ streamlit run app.py
 This command must be run only after executing the "step 1.clone the repository" given above.
 
 ## Deployment
-This application is deployed on Streamlit Community and HuggingFace Spaces.The links for both of them are given below.
-Link(Streamlit Community) - To be posted soon.
+This application is deployed on Streamlit Sharing and HuggingFace Spaces.The links for both of them are given below.
+Link(Streamlit Sharing) - To be posted soon.
 Link(HuggingFace Spaces) - To be posted soon.
