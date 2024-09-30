@@ -65,5 +65,6 @@ This command must be run only after executing the "step 1.clone the repository" 
 
 ## Deployment
 This application is deployed on Streamlit Sharing and HuggingFace Spaces.The links for both of them are given below.
-Link(Streamlit Sharing) - To be posted soon.
-Link(HuggingFace Spaces) - To be posted soon.
+
+1.Link(Streamlit Sharing) - To be posted soon.
+2.Link(HuggingFace Spaces) - To be posted soon.
