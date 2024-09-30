@@ -58,9 +58,9 @@ To run the application on your local machine:
    ```
 
 2.**Run the streamlit app locally**
-```bash
-streamlit run app.py
-```
+  ```bash
+  streamlit run app.py
+  ```
 This command must be run only after executing the "step 1.clone the repository" given above.
 
 ## Deployment
