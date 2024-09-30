@@ -23,8 +23,10 @@ This web application demonstrates the ability to perform Optical Character Recog
 1. **Environment Setup**:
    - Set up the environment with the required dependencies:
      ```bash
-     pip install torch transformers streamlit
+     pip install -r requirements.txt
      ```
+     If you are running this command before cloning this repository you may get an error. That is first clone this repository and then change your current directory to GOT_OCR2.0 .
+     The commands for which are given below in the [Running the Application Locally](#running-the-application-locally) section step number 1.
 
 2. **OCR Model Implementation**:
      - General OCR Theory (GOT), a 580M end-to-end OCR model was used to build this application.
