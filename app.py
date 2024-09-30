@@ -2,15 +2,15 @@ import re
 import streamlit as st  # Importing required libraries
 from transformers import AutoModel, AutoTokenizer
 import io
-import logging
+#import logging
 from PIL import Image
 
 # Configure logging for error handling
-logging.basicConfig(level=logging.INFO, format='%(asctime)s %(message)s')
+#logging.basicConfig(level=logging.INFO, format='%(asctime)s %(message)s')
 
 # Helper function for logging and displaying errors
 def handle_error(error_message):
-    logging.error(error_message)
+    #logging.error(error_message)
     st.error(f"An error occurred: {error_message}")
 
 # Cache the model and tokenizer to avoid reloading on every run
