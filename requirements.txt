@@ -1,6 +1,9 @@
-re
+regex
 streamlit
 transformers
-io
-logging
+Python-IO
 Pillow
+tiktoken
+verovio
+torch
+torchvision
