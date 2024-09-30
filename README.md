@@ -50,12 +50,13 @@ To run the application on your local machine:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/AISpaceXDragon/GOT-OCR2.0.git
+   git clone https://github.com/AISpaceXDragon/GOT-OCR2.0.git```
+   ```bash
    cd GOT_OCR2.0
    ```
 
 2.**Run the streamlit app locally**
-Run the command-
+  Run the command-
 ```bash
 streamlit run app.py
 ```
