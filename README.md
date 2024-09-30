@@ -76,6 +76,6 @@ This command must be run only after executing the "step 1.clone the repository" 
 ## Deployment
 This application is deployed on Streamlit Sharing and HuggingFace Spaces.The links for both of them are given below.
 
-1.Link(Streamlit Sharing) - To be posted soon.
+1.Link(Streamlit Sharing) - Removed due to some issue,but if you want to access it here is the link -->[https://got-ocr20-nwcwgf2njkjf8esqyfwxhc.streamlit.app](https://got-ocr20-nwcwgf2njkjf8esqyfwxhc.streamlit.app)
 
-2.Link(HuggingFace Spaces) - To be posted soon.
+2.Link(HuggingFace Spaces) - [https://huggingface.co/spaces/srimanth-d/OCR_app](https://huggingface.co/spaces/srimanth-d/OCR_app)
