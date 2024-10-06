@@ -3,7 +3,7 @@
 - Also note that this model takes significantly large processing time per image i.e., 5-7 minutes as per my observation during inference because it runs on CPU.As GOT OCR2.0 is only available on GPU, but due to no compute resources, I implemented a CPU version of it and uploaded it HuggingFace Models Hub [https://huggingface.co/srimanth-d/GOT_CPU](https://huggingface.co/srimanth-d/GOT_CPU) and contributing to the CPU version of GOT as mentioned in the official repository of [GOT OCR2.0](https://github.com/ElvisClaros/GOT-OCR2.0).
 - Here are the finetuned model weights which were finetuned on this dataset --> [https://huggingface.co/datasets/damerajee/hindi-ocr](https://huggingface.co/datasets/damerajee/hindi-ocr) Link to finetuned weights(finetuned using [ms-swift](https://github.com/modelscope/ms-swift)) --> [https://drive.google.com/file/d/1qbupBRk8yIgiD3WzIwKP54-Fn4wpgpg1/view?usp=sharing](https://drive.google.com/file/d/1qbupBRk8yIgiD3WzIwKP54-Fn4wpgpg1/view?usp=sharing)
 - I could have quantized the model, but the accuracy reduces greatly.So I refrained from doing so.
-- I also noted that few other students who did this task used my implementation of GOT CPU from HuggingFace.
+- I also noted that few other students who did this task used my implementation of GOT CPU from HuggingFace(not boasting about my work or myself).
 
 
 # Web-Based Optical Character Recognition (OCR) Prototype
